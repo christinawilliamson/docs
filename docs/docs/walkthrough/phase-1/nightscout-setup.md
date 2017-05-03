@@ -49,7 +49,7 @@ your data, customized watchfaces with your OpenAPS data, and integration with IF
 * Fill out the information lines in the `Config Variables` Section of that page, as shown below.  Some of the lines can stay with the default entries already provided.
 
 
-<table>
+<table border="1">
 <thead>
 <tr>
 <th>KEY</th>
@@ -152,7 +152,7 @@ You do not have to enter all the information in the profile if you are using Ope
 
 ![Add vars](../phase-1/img/add_vars.jpg)
 
-<table>
+<table border="1">
 <thead>
 <tr>
 <th>KEY</th>
@@ -219,7 +219,7 @@ You do not have to enter all the information in the profile if you are using Ope
 </tbody>
 </table>
 
-If you are using the Nightscout Bridge to bring in CGM data from Dexcom servers (G4 Share2 app or G5 Mobile app) and are outside the US, you will need to add a setting for `BRIDGE_SERVER` and set the value to `EU`.
+NOTE: If you are using the Nightscout Bridge to bring in CGM data from Dexcom servers (G4 Share2 app or G5 Mobile app) and are outside the US, you will need to add a setting for `BRIDGE_SERVER` and set the value to `EU`.
 
 * Click on `Open App` in the top right corner of your Heroku site.
 
